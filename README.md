@@ -8,5 +8,5 @@ Giannis needs a player that can create for him and also utilizes his creative ab
 
 I started my searching with these features: age=27, 3P%=0.40, 3PA=6, 2P%=0.45, AST=6, TOV=3 and I specify the number of neighbors as 3. The model recommend three players and one of them is currently Giannis teammate. Despite that Middleton is  a nice shooting guard I tried to make my search more specific in order to pick a point guard.
 
-From the column position I convert the categorical variables into dummy variables and also in my second target group I add the salary feature. The recommendation results were interesting, the first player was Malcom Brogdon former Giannis teammate that Milwaukee chose to trade, the second one was Terry Rozier a player with a lot of potential with great playoff series against Bucks and the third player wasn’t a point guard.   
+From the column position I convert the categorical variables into dummy variables and also in my second target group I add the salary feature. The recommendation results were interesting, the first player was Malcom Brogdon former Giannis teammate that Milwaukee chose to trade, the second one was Terry Rozier a player with potential with great playoff series against Bucks and the third player wasn’t a point guard.   
 
