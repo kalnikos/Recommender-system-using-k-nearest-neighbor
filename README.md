@@ -8,10 +8,9 @@ Giannis needs a player that can create for him and also utilizes his creative ab
 
 I started my searching with these features: age=27, 3P%=0.40, 3PA=6, 2P%=0.45, AST=6, TOV=3 and I specify the number of neighbors as 3. The model recommend three players and one of them is currently Giannis teammate. Despite that Middleton is  a nice shooting guard I tried to make my search more specific in order to pick a point guard.
 
-From the column position I convert the categorical variables into dummy variables and also in my second target group I add the salary feature. The recommendation results were interesting, the first player was Malcom Brogdon former Giannis teammate that Milwaukee chose to trade, the second one was Terry Rozier a player with potential with great playoff series against Bucks but the third player wasn’t a point guard however the recommandations were acceptable.
+From the column position I convert the categorical variables into dummy variables and also in my second target group I add the salary feature. The recommendation results were interesting, the first player was Malcom Brogdon former Giannis teammate that Milwaukee chose to trade, the second one was Terry Rozier a player with potentials who had a great playoff series last year against Bucks. The third prediction wasn’t a point guard however the recommandations were acceptable.
 
-At the second part I created a model aiming to predict the player position. I tried firstly to create the model using a small data set using two different algorithms K nearest  Neighbor and Logistic Regression. The model didn’t performed so well and I tried another data set with over than 25000 values and I also defined the players to guard, forward and center in order to help the algorithm. Although the general accuracy was higher compared to the small data set, the model has a low prediction accurate at the forward category.
-
+At the second part I created a model aiming to predict the player position. I tried firstly to create the model using a small data set using two different 
 More comprehensive the model’s Accuracy metrics are:
 
 
