@@ -16,6 +16,8 @@ In order to achieve better results I used a bigger data set and I split the targ
 
 I used the K-NN algorithm to structure my model and the Accuracy of my test set increased to 78% with K-Nabors=7
 
+![KNN_78%](https://user-images.githubusercontent.com/66875726/93240302-a1c8e080-f78c-11ea-8780-54aa9da06232.png)
+
 
 
 
