@@ -10,17 +10,12 @@ I started my searching with these features: age=27, 3P%=0.40, 3PA=6, 2P%=0.45, A
 
 From the column position I convert the categorical variables into dummy variables and also in my second target group I add the salary feature. The recommendation results were interesting, the first player was Malcom Brogdon former Giannis teammate that Milwaukee chose to trade, the second one was Terry Rozier a player with potentials who had a great playoff series last year against Bucks. The third prediction wasn’t a point guard however the recommandations were acceptable.
 
-At the second part I created a model aiming to predict the player position. I tried firstly to create the model using a small data set using two different 
-More comprehensive the model’s Accuracy metrics are:
+At the second part of this project I tried to create a model aiming to predict the player position. I started with the data set that I used to create my recommendation model but the results were disappointing. More specifically the test set Accuracy was 36%. 
+
+In order to achieve better results I used a bigger data set and I split the target group in three main categories (Guards, Forwards, Centers) instead of the five classic positions.
+
+I used the K-NN algorithm to structure my model and the Accuracy of my test set increased to 78% with K-Nabors=7
 
 
-•	K nearest Neighbor: Train set Accuracy:  0.85, 
-The best Test accuracy was 0.78 with k= 9 
-And the F1 Scores [0.84790528, 0.46827133, 0.84401914]
-
-
-•	Logistic Regression: Train set Accuracy: 0.75
-Test set Accuracy:  0.74
-F1 Scores ([0.82362941, 0.24148607, 0.82871422])
 
 
