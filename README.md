@@ -10,14 +10,7 @@ I started my searching with these features: age=27, 3P%=0.40, 3PA=6, 2P%=0.45, A
 
 From the column position I convert the categorical variables into dummy variables and also in my second target group I add the salary feature. The recommendation results were interesting, the first player was Malcom Brogdon former Giannis teammate that Milwaukee chose to trade, the second one was Terry Rozier a player with potentials who had a great playoff series last year against Bucks. The third prediction wasn’t a point guard however the recommandations were acceptable.
 
-At the second part of this project I tried to create a model aiming to predict the player position. I started with the data set that I used to create my recommendation model but the results were disappointing. More specifically the test set Accuracy was 36%. 
-
-In order to achieve better results I used a bigger data set and I split the target group in three main categories (Guards, Forwards, Centers) instead of the five classic positions.
-
-I used the K-NN algorithm to structure my model and the Accuracy of my test set increased to 78% with K-Nabors=7
-
-![KNN_78%](https://user-images.githubusercontent.com/66875726/93240302-a1c8e080-f78c-11ea-8780-54aa9da06232.png)
-
+The second part of this project it will be a classification moldel aiming to predict the player position.. 
 
 
 
